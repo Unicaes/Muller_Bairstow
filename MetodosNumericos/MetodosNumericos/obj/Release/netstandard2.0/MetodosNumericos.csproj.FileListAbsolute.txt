@@ -1,0 +1,15 @@
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\bin\Release\netstandard2.0\MetodosNumericos.deps.json
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\bin\Release\netstandard2.0\MetodosNumericos.dll
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\bin\Release\netstandard2.0\ref\MetodosNumericos.dll
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\bin\Release\netstandard2.0\MetodosNumericos.pdb
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\View\Bairstow.xaml.g.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\View\Matriz.xaml.g.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\View\Muller.xaml.g.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\MetodosNumericos.AssemblyInfoInputs.cache
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\MetodosNumericos.AssemblyInfo.cs
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\MetodosNumericos.dll
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\ref\MetodosNumericos.dll
+C:\Users\bryan\Desktop\MetodosNumericos\MetodosNumericos\MetodosNumericos\obj\Release\netstandard2.0\MetodosNumericos.pdb

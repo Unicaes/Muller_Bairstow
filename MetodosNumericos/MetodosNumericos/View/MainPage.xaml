@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MetodosNumericos.MainPage">
+
+    <StackLayout Margin="10" HorizontalOptions="Center" VerticalOptions="Center">
+        <Image Source="calculation.png" HeightRequest="250" WidthRequest="250" Aspect="AspectFit"/>
+        <StackLayout Padding="30">
+            <Button Text="Muller" BorderColor="MediumSeaGreen" BackgroundColor="Transparent" BorderWidth="5" CornerRadius="5" TextColor="MediumSeaGreen" Command="{Binding Muller}"/>
+            <Button Text="Bairstow" BorderColor="LightCoral" BackgroundColor="Transparent" BorderWidth="5" CornerRadius="5" TextColor="LightCoral" Command="{Binding Bairstow}"/>
+            <Button Text="Matriz 3x3" BorderColor="BlueViolet" BackgroundColor="Transparent" BorderWidth="5" CornerRadius="5" TextColor="BlueViolet" Command="{Binding Matriz}"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

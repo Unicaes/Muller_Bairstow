@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:context="clr-namespace:MetodosNumericos.ViewModel"
+             mc:Ignorable="d"
+             Title="Bairstow"
+             x:Class="MetodosNumericos.View.Bairstow">
+    <ContentPage.BindingContext>
+        <context:BairstowViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Calcular" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker Title="Selecciona el grado de la ecuacion que desea resolver" SelectedIndexChanged="Picker_SelectedIndexChanged" x:Name="picker">
+                <Picker.Items>
+                    <x:String>Grado 3</x:String>
+                    <x:String>Grado 4</x:String>
+                    <x:String>Grado 5</x:String>
+                    <x:String>Grado 6</x:String>
+                </Picker.Items>
+            </Picker>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry Placeholder="r" x:Name="r" Keyboard="Numeric"/>
+                <Entry Placeholder="s" x:Name="s" Keyboard="Numeric"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt6" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x^6" x:Name="lbl6"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt5" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x^5" x:Name="lbl5"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt4" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x^4" x:Name="lbl4"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt3" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x^3" x:Name="lbl3"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt2" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x^2" x:Name="lbl2"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt1" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="x  " x:Name="lbl1"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Entry x:Name="txt0" WidthRequest="100" Unfocused="txt6_TextChanged" Keyboard="Numeric" Text="0"/>
+                <Label Text="   "/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

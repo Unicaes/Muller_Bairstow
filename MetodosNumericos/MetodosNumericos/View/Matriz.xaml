@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:context="clr-namespace:MetodosNumericos.ViewModel"
+             mc:Ignorable="d"
+             x:Class="MetodosNumericos.View.Matriz">
+    <ContentPage.BindingContext>
+        <context:MatrizViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Calcular" Command="{Binding Calcular}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Entry Text="{Binding n1}" Grid.Row="0" Grid.Column="0" Keyboard="Numeric"/>
+                <Entry Text="{Binding n2}" Grid.Row="0" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding n3}" Grid.Row="0" Grid.Column="2" Keyboard="Numeric"/>
+                <Entry Text="{Binding n4}" Grid.Row="1" Grid.Column="0" Keyboard="Numeric"/>
+                <Entry Text="{Binding n5}" Grid.Row="1" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding n6}" Grid.Row="1" Grid.Column="2" Keyboard="Numeric"/>
+                <Entry Text="{Binding n7}" Grid.Row="2" Grid.Column="0" Keyboard="Numeric"/>
+                <Entry Text="{Binding n8}" Grid.Row="2" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding n9}" Grid.Row="2" Grid.Column="2" Keyboard="Numeric"/>
+            </Grid>
+            <BoxView HeightRequest="100"></BoxView>
+            <Label Text="Matriz Inversa" FontSize="Large" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Entry Text="{Binding i1,Mode=TwoWay}" Grid.Row="0" Grid.Column="0"/>
+                <Entry Text="{Binding i2}" Grid.Row="0" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding i3}" Grid.Row="0" Grid.Column="2" Keyboard="Numeric"/>
+                <Entry Text="{Binding i4}" Grid.Row="1" Grid.Column="0" Keyboard="Numeric"/>
+                <Entry Text="{Binding i5}" Grid.Row="1" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding i6}" Grid.Row="1" Grid.Column="2" Keyboard="Numeric"/>
+                <Entry Text="{Binding i7}" Grid.Row="2" Grid.Column="0" Keyboard="Numeric"/>
+                <Entry Text="{Binding i8}" Grid.Row="2" Grid.Column="1" Keyboard="Numeric"/>
+                <Entry Text="{Binding i9}" Grid.Row="2" Grid.Column="2" Keyboard="Numeric"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
